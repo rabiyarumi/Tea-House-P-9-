@@ -79,7 +79,7 @@
       <!-- feature product section -->
       <section class=" ">
         <!-- feature product title -->
-        <div class="border-2 text-center md:w-3/4 mx-auto">
+        <div class=" text-center md:w-3/4 mx-auto">
           <h2 class="text-4xl md:text-5xl font-extrabold text-[#1C1C1C]">
             Our Featured Products
           </h2>
@@ -99,7 +99,7 @@
             <img
               src="./images/tea-1.png"
               alt=""
-              class="text-center border-2 mx-auto"
+              class="text-center  mx-auto"
             />
             <h3 class="text-[#1C1C1C] text-2xl font-extrabold my-3">
               Milk Tea
@@ -113,7 +113,7 @@
             <img
               src="./images/tea-2.png"
               alt=""
-              class="text-center border-2 mx-auto"
+              class="text-center  mx-auto"
             />
             <h3 class="text-[#1C1C1C] text-2xl font-extrabold my-3">
               Black Tea
@@ -127,7 +127,7 @@
             <img
               src="./images/tea-3.png"
               alt=""
-              class="text-center border-2 mx-auto"
+              class="text-center mx-auto"
             />
             <h3 class="text-[#1C1C1C] text-2xl font-extrabold my-3">
               Lemon Tea
@@ -141,7 +141,7 @@
             <img
               src="./images/tea-4.png"
               alt=""
-              class="text-center border-2 mx-auto"
+              class="text-center mx-auto"
             />
             <h3 class="text-[#1C1C1C] text-2xl font-extrabold my-3">
               Green Tea
@@ -198,6 +198,7 @@
           </div>
         </div>
       </section>
+
       <!-- super client section -->
       <section class="mb-24">
         <!-- container-->
@@ -225,11 +226,9 @@
           </div>
           <!-- relative card section -->
           <div class="md:w-1/2 relative py-20 md:py-0 px-6 md:px-0">
-             <!-- middle card -->
-             <div class="absolute z-10 top-44 md:top-24 w-4/5">
-              <div
-                class=" bg-white  rounded-lg py-5 px-5  "
-              >
+            <!-- middle card -->
+            <div class="absolute z-10 top-44 md:top-24 w-4/5">
+              <div class="bg-white rounded-lg py-5 px-5">
                 <div class="absolute -top-8 -left-10 bg-white rounded-full">
                   <img src="./images/client.png" class="p-1" alt="" />
                 </div>
@@ -255,7 +254,7 @@
               <h5 class="font-bold">Ilham Yuda</h5>
               <p class="text-[#5D5A6F]">Businessman</p>
             </div>
-           
+
             <!-- bottom card -->
             <div
               class="relative bg-white w-4/5 rounded-lg py-5 px-5 top-10 left-8 md:left-20 opacity-40"
@@ -274,5 +273,84 @@
         </div>
       </section>
     </main>
+
+    <!-- footer -->
+    <footer
+      class=" max-w-screen-2xl mx-auto bg-gradient-to-r from-orange-50 to-red-100"
+    >
+      <!-- container -->
+      <div
+        class=" max-w-screen-lg mx-auto text-[#494949]  lg:py-32 md:py-24 md:px-20 p-7 "
+      >
+        <!-- First-row -->
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <div>
+            <img src="./images/cup.png" alt="" />
+          </div>
+          <!-- button -->
+          <div class="flex items-center gap-7">
+            <p>Ready to get started?</p>
+            <button
+              class="p-4 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-xl text-xl text-[#ffffff] font-bold"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <!-- links -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:my-24"
+        >
+          <!-- First-column -->
+          <div class="flex flex-col gap-4 text-center md:text-left">
+            <h3 class="text-lg font-bold text-black">Quick Links</h3>
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Insurance</p>
+            <p>Privacy Policy</p>
+          </div>
+          <!-- Second-column -->
+          <div class="flex flex-col gap-4 text-center md:text-left">
+            <h3 class="text-lg font-bold text-black">Our Service</h3>
+            <p>Life Insurance</p>
+            <p>Car Insurance</p>
+            <p>Health Insurance</p>
+            <p>House Insurance</p>
+          </div>
+          <!-- Third-column -->
+          <div class="flex flex-col gap-4 text-center md:text-left">
+            <h3 class="text-lg font-bold text-black">Help</h3>
+            <p>FAQs</p>
+            <p>Contact Us</p>
+          </div>
+          <!-- Fourth column -->
+          <div class="flex flex-col gap-4 text-center md:text-left">
+            <h3 class="text-lg font-bold text-black">
+              Subscribe to our newsletter
+            </h3>
+            <div class="flex flex-col gap-4">
+              <!-- input -->
+              <div>
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  class="bg-transparent border-b-2 border-[#494949] border-opacity-50 py-4 pr:12 lg:pr-0 lg:w-2/3"
+                />
+                <i
+                  class="fa-solid fa-chevron-right bg-orange-600 text-white p-2 rounded-full"
+                ></i>
+              </div>
+              <div class="flex items-center justify-between w-2/6 md:w-3/6 mx-auto md:mx-0 mt-6 lg:mt-6 md:mt-0">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center mt-10 md:mt-0">© 2027 UIDesign.to - All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
